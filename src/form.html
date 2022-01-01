@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            meu projeto exemplo
+        </title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/form.css" />
+    </head>
+    <body style="background-color: yellow;">
+        <header class="cabecalho">
+            <img src="../assets/img/logo.jfif" />
+        </header>
+        <div class="menu">
+            <a href="./index.html">
+                Listagem
+            </a>
+            <a href="./form.html">
+                Cadastrar
+            </a>    
+        </div>
+        <section>
+            <form class="formulario">
+                <div class="linha-formulario" >
+                    <label class="label-grande" for="name">NOME:</label>
+                    <input name="name" id="name" required type="text" />
+                </div>
+
+                <div class="linha-formulario" >
+                     <label class="label-grande" for="phone">TELEFONE:</label>
+                     <input name="phone" id="phone" required type="text" />
+                </div>     
+
+                <div class="linha-formulario xp-line" style="display: flex;">
+                    <label class="label-grande">EXPERIÊNCIA PRÉVIA:</label>
+                    <div>
+                    <input type="radio" name="xp" id="xp-yes" /> <label for="xp-yes">
+                         SIM
+                  </label>
+                  <br />
+                    <input type="radio" name="xp" id="xp-no" /> <label for="xp-no">
+                         NÃO
+                  </label>
+                   </div> 
+                </div> 
+               
+                <input type="submit" value="SALVAR" />
+            </form>
+        </section>
+    </body>
+
+</html>
